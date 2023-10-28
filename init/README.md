@@ -25,7 +25,7 @@ Maksym Shnitsar
 
 ## Посилання на Соц. мережу
 
-[Мій ](https://www.instagram.com/maksymshnitsar/ "Instagram-Account")
+Мій [Instagram-Account](https://www.instagram.com/maksymshnitsar/ "Instagram-Account")
 
 
 ##### Улюблена фотографія
