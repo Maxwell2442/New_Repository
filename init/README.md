@@ -4,7 +4,7 @@
 
 ## Власник репозиторію
 
-Maksym Shnitsar
+:muscle: Maksym Shnitsar :muscle:
 ======
 
 ### Мої хобі 
