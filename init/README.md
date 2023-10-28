@@ -30,7 +30,6 @@ Maksym Shnitsar
 
 ##### Улюблена фотографія
 
-Inline-style: 
 ![Карпати](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2vEGOGfarEuGfgrX-pwsXV-ovRYV9U3En3g&usqp=CAU "Найкращі гори Карпати!")
 
 ## Мій першийй власний код
