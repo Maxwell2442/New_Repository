@@ -1,5 +1,5 @@
 from datetime import datetime
-name = "Bohdan"
-location = "Lviv"
+name = "Maksym"
+location = "Skole"
 
 print(f"{name} start programming at {datetime.now()}. {location} is the best city!")
