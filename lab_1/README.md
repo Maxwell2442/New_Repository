@@ -13,7 +13,7 @@
 
 - вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
 
-![Перша програма](https://github.com/BobasB/it_college/raw/main/reports/pictures/logo-lit.jpg "ІТ Коледж")
+![First Programm](pictures/logo-lit.jpg "Перша програма")
 
 - вставлений код / текстовий або числовий результат / інші результати:
 ```python
