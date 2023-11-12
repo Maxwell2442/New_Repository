@@ -15,6 +15,18 @@
 
 ![First Programm](../pictures/First_Programm.png "Перша програма")
 
+- Результати виконання завдання 2:
+    1. Створили перший файл Python з розширенням _.ipynb_ у папці *lab_1* з ім'ям *my_first_pyapp.ipynb*.
+    1. Програма вивела наступні значення:
+    
+    Maksym start programming at 2023-11-12 17:37:30.646989. Skole is the best city!
+
+    Це також можна побачити на скіршоті нижче:
+
+- вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
+
+![First Programm](../pictures/First_Programm_2.png "Перша програма")
+
 - вставлений код / текстовий або числовий результат / інші результати:
 ```python
 def simple_function_example():
