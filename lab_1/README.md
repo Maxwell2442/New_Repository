@@ -4,7 +4,7 @@
 ---
 ### Виконання роботи
 - Результати виконання завдання 1:
-    1. Створили перший файл Python у папці 'lab_1' з ім'ям *my_first_pyapp.py*.
+    1. Створили перший файл Python у папці `lab_1` з ім'ям `my_first_pyapp.py`.
     1. Програма вивела наступні значення:
     
     Maksym start programming at 2023-11-12 17:03:06.499157. Skole is the best city!
@@ -16,7 +16,7 @@
 ![First Programm](../pictures/First_Programm.png "Перша програма")
 
 - Робота з Python Notebook:
-    1. Створили перший файл Python з розширенням _.ipynb_ у папці *lab_1* з ім'ям *my_first_pyapp.ipynb*.
+    1. Створили перший файл Python з розширенням `.ipynb` у папці `lab_1` з ім'ям `my_first_pyapp.ipynb`.
     1. Програма вивела наступні значення:
     
     Maksym start programming at 2023-11-12 17:37:30.646989. Skole is the best city!
@@ -28,12 +28,12 @@
 ![First Programm](../pictures/First_Programm_2.png "Перша програма")
 
 - Робота з Markdown:
-    1. Створили комірку Markdown у файлі з ім'ям *my_first_pyapp.py*.
+    1. Створили комірку Markdown у файлі з ім'ям `my_first_pyapp.py`.
     1. Описали вище наведений код як:
     
     Моя перша програма із Python Notebook!
 
-    1. Натиснули _RunAll_ та 
+    1. Натиснули `RunAll` та 
     Це також можна побачити на скіршоті нижче:
 
 - вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
