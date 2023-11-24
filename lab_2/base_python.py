@@ -119,3 +119,9 @@ print("Завдання vii: Контекст-менеджер with у Python: "
 print("Додаємо текст до існуючого файлу за допомогою with: ")
 with open("lab_2/README.md", "a") as file:
     file.write("\nЦе буде додано до існуючого вмісту.")
+
+print("\n\nЗавдання vii: Контекст-менеджер with у Python: ")
+
+print("Використання Лямбди: ")
+square = lambda x: x**2
+print(square(5))
