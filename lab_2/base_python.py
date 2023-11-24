@@ -117,5 +117,5 @@ finally:
 print("Завдання vii: Контекст-менеджер with у Python: ")
 
 print("Додаємо текст до існуючого файлу за допомогою with: ")
-with open("README.md", "a") as file:
+with open("lab_2/README.md", "a") as file:
     file.write("\nЦе буде додано до існуючого вмісту.")
