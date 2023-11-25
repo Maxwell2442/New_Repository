@@ -44,8 +44,7 @@ print("Сумою списку numbers є", sum(numbers))
 print("Довжиною списку numbers є", len(numbers))
 
 # Мінімальний елемент min(): Повертає найменше число ітерації:
-min_of_numbers = min(numbers)
-print("Мінімальним числом списку numbers є", min_of_numbers, end='\n\n')
+print("Мінімальним числом списку numbers є", min(numbers), end='\n\n')
 
 print("Завдання іv: Цикли у Python: ") 
 

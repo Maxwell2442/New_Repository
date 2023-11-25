@@ -85,8 +85,7 @@
 
     print("Довжиною списку numbers є", len(numbers))
 
-    min_of_numbers = min(numbers)
-    print("Мінімальним числом списку numbers є", min_of_numbers, end='\n\n')
+    print("Мінімальним числом списку numbers є", min(numbers), end='\n\n')
     ```
     ```text
     Сума sum(): Повертає суму чисел у списку numbers.   
