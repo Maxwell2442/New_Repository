@@ -238,7 +238,7 @@
 
     * вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
 
-    ![Exersizes](../pictures/base_python6.png "Сьоме завдання", end="")
+    ![Exersizes](../pictures/base_python6.png "Сьоме завдання")
     ![Exersizes](../pictures/base_python7.png "Сьоме завдання")
 
 ### Висновок: 
