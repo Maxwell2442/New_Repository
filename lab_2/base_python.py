@@ -61,12 +61,6 @@ while count < 5:
     print(count)
     count += 1
 
-cars = ["Volvo", "Aston Martin", "Koenigsegg"]
-
-print("Цикл for по списку автомобілів, з пропусками рядків:", end="\n\n")
-for car in cars:
-    print(car, end="\n\n")
-
 print("Завдання v: Розгалуження у Python: ")
 
 age = 18
