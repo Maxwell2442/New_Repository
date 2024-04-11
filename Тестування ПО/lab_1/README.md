@@ -9,7 +9,7 @@
     1. Перевірили, що pip встановлений на ноутбуці, а саме його версія 24.0
     1. Вивели на екран встановленні бібліотеки pip за допомогою команди `pip list`:
 
-![pip list](images/pip list.png "pip_list")
+![pip list](images/pip_list.png "pip list")
 
 - Робота з Python Notebook:
     1. Створили перший файл Python з розширенням `.ipynb` у папці `lab_1` з ім'ям `my_first_pyapp.ipynb`.
