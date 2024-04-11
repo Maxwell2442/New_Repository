@@ -15,6 +15,9 @@
 
     ![pip_install_requests](images/pip_install_requests.png "pip_install_requests")
 
+    - Імпортували та протестували її:
+
+    ![import_requests](images/import_requests.png "import_requests")
 
 
 
