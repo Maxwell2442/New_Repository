@@ -132,12 +132,17 @@
     - `Pipfile` містить декларацію залежностей власного проєкту. 
     `Pipfile.lock` - це файл, який генерується `pip` на основі `Pipfile`. Він містить список усіх пакетів, які були встановлені у нашому середовищі Python, а також їх версії та хеш-суми.
 
-    - Створили пайтон (ноутбук) файл та записали в нього задану програму. Запустили його у Visual Studio Code:
+    - Створили пайтон файл під назвою `test.py` та записали в нього задану програму. Запустили його у Visual Studio Code:
 
     ![pyprogramm_vs](images/pyprogramm_vs.png "pyprogramm_vs")
 
+    Запустили його у командній строці:
 
+    ![pyprogramm_cmd](images/pyprogramm_cmd.png "pyprogramm_cmd")
 
+    Запустили його у `pipenv shell`:
+
+    ![pyprogramm_pipenv](images/pyprogramm_pipenv.png "pyprogramm_pipenv")
 
 
 
