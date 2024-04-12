@@ -166,7 +166,7 @@
 
     - Використаємо .env змінну без активації віртуального середовища:
 
-    ![without_env](images/withot_env.png "withot_env")
+    ![without_env](images/without_env.png "withot_env")
 
 ### Висновок: 
 - :question: Що зроблено в роботі :arrow_down: 
