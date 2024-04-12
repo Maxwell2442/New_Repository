@@ -34,9 +34,7 @@
     pip uninstall requests
     ```
     
-    ![requests21](images/requests21.png "requests21")
-    
-    _Бібліотека requests 2.31.0 надалі залишається встановленою_  
+    ![requests21](images/requests21.png "requests21")  
 
 
 1. Робота з Python Notebook:
