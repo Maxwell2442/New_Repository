@@ -15,9 +15,28 @@
 
     ![pip_install_requests](images/pip_install_requests.png "pip_install_requests")
 
-    - Імпортували та протестували її:
+    - Імпортували та протестували її за допомогою команд:
+
+    ```python
+    >>> import requests
+    >>> r = requests.get('https://google.com')
+    >>> r.status_code
+    >>> exit()
+    ```
 
     ![import_requests](images/import_requests.png "import_requests")
+
+    - Зробимо її загальнодоступною для цілої системи за допомогою наступних команд:
+
+    ```python
+    pip show requests
+    pip install requests==2.1
+    pip show requests
+    pip uninstall requests
+    ```
+    
+    ![requests21](images/requests21.png "requests21")
+    
 
 
 
