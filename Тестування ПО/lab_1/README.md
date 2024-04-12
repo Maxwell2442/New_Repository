@@ -36,20 +36,22 @@
     
     ![requests21](images/requests21.png "requests21")  
 
-
-1. Робота з Python Notebook:
-    1. Створили перший файл Python з розширенням `.ipynb` у папці `lab_1` з ім'ям `my_first_pyapp.ipynb`.
-    1. Програма вивела наступні значення:
+1. Робота у віртуальному середовищі:
+    - Створили `VENV` та активували його за допомогою команд:
     
-    *Maksym start programming at 2023-11-12 17:37:30.646989. Skole is the best city!*
+    ```python
+    python -m venv ./my_env
+    source my_env/Scripts/activate
+    pip install requests
+    deactivate
+    pip show requests
+    ```
 
-    Це також можна побачити на скіршоті нижче:
+    - Після нашого запиту команда вивела на екран інформацію про бібліотеку `requests`:
 
-    * вставлені рисунки (скріншоти екрана або фотографії виконаного завдання у зошиті);
+    ![venv_requests](images/venv_requests.png "venv_requests")
 
-![First Programm](../pictures/First_Programm_2.png "Перша програма")
-
-- Робота з Markdown:
+    - Робота з Markdown:
     1. Створили комірку Markdown у файлі з ім'ям `my_first_pyapp.py`.
     1. Описали вище наведений код як:
     
