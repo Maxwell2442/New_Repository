@@ -144,6 +144,12 @@
 
     ![pyprogramm_pipenv](images/pyprogramm_pipenv.png "pyprogramm_pipenv")
 
+    - За нашим вибором встановимо бібліотеку `pandas` із списку бібліотек Pypi. Встановили бібліотеку за допомогою: `pip install pandas`.
+    - Ознайомившись із її документацією затестимо її:
+
+    ![pandas](images/pandas.png "pandas")    
+
+    Ця команда створює DataFrame з двома стовпцями: Name та Age, а потім друкує його текстове представлення.
 
 
 
