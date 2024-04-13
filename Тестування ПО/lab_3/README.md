@@ -69,9 +69,33 @@
     ```
     ![assert3](images/assert3.png "assert3")
 
+1. Результати виконання завдання 2 - "Юніт тести":
+    - Створили простий клас з двома пропертями, та навмисно зробили в ньому помилку. За допомогою даного класу та створених у нього двох об'єктів для виклику меодів пропертіс застосували його:
 
+    ```python
+    class Figure:
+        FIGURES = ["квадрат", "прямокутник", "трикутник"]
+        def __init__(self, type, length) -> None:
+            assert length > 0, "Довжина має бути більшою за 0!"
+            assert type in self.FIGURES, "Дозволені фігури: квадрат, прямокутник, трикутник"
+            self.type = type
+            self.length = length
 
+        @property
+        def get_figure_type(self):
+            return self.type
 
+        @property
+        def get_figure_length(self):
+            return self.type # робимо помилку
+
+    a = Figure("прямокутник", 10)
+    b = Figure("трикутник", 3)
+
+    print(a.get_figure_type)
+    print(b.get_figure_length)
+    ```
+    ![assert4](images/assert4.png "assert4")
 
     - Виконали приклади які розглядали на лекції, вставивши їх у `lab_2.ipynb` та протестувавши:
 
