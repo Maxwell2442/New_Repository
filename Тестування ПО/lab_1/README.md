@@ -169,7 +169,20 @@
     ![without_env](images/without_env.png "withot_env")
 
 1. Результати виконання завдання 5 - "Допомога ChatGPT":
-    - ChatGPT надав мені наступний код 
+    - ChatGPT надав мені наступний код для створення сайту:
+    ```python
+    from flask import Flask
+
+    app = Flask(__name__)
+
+    @app.route('/')
+    def hello_world():
+        return 'Привіт світ, вітаю на моєму сайті.'
+
+    if __name__ == '__main__':
+        app.run(debug=True)
+
+    ```
 
     ![GPT_website](images/GPT_website.png "GPT_website")
 
