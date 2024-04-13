@@ -77,10 +77,10 @@
         FIGURES = ["квадрат", "прямокутник", "трикутник"]
         def __init__(self, type, length) -> None:
             assert length > 0, "Довжина має бути більшою за 0!"
+            self.length = length
             assert type in self.FIGURES, "Дозволені фігури: квадрат, прямокутник, трикутник"
             self.type = type
-            self.length = length
-
+            
         @property
         def get_figure_type(self):
             return self.type
@@ -96,6 +96,7 @@
     print(b.get_figure_length)
     ```
     ![assert4](images/assert4.png "assert4")
+    Можемо зауважити, що `test_figure_type` виконується (оскільки написаний без помилки), а `test_figure_length` не виводить на екран дані про довжину, бо свідомо написаний з помилкою.
 
     - Виконали приклади які розглядали на лекції, вставивши їх у `lab_2.ipynb` та протестувавши:
 
