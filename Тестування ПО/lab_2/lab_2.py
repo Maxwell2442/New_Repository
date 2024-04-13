@@ -39,6 +39,11 @@ class MyName:
         """Static method
         """
         return f"You say: {message}"
+    
+    def name_length(self):
+        """Method for calculate name length
+        """
+        return len(self.name)
 
 
 print("Let's Start!")
@@ -54,6 +59,7 @@ This is {type(MyName.whoami)}: {me.whoami} / {me.my_email}
 This is {type(me.create_email)} call: {me.create_email()}
 This is static {type(MyName.say_hello)} with defaults: {me.say_hello()} 
 This is class variable {type(MyName.total_names)}: from class {MyName.total_names} / from object {me.total_names}
+This is length variable {type(MyName.name_length)}: {me.name_length()}
 {"<*>"*20}""")
 
 print(f"We are done. We create {me.total_names} names! ??? Why {MyName.total_names}?")
