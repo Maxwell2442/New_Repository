@@ -102,7 +102,14 @@
     We are done. We create 4 names! ??? Why 4?
     ```
 
-    ![pip list](images/pip_list.png "pip list")
+    - Виконали приклади які розглядали на лекції, вставивши їх у `lab_2.ipynb` та протестувавши:
+
+    ![ipynb](images/ipynb.png "ipynb")
+
+
+
+
+    
 
     - Встановили бібліотеку requests за допомогою команди `pip install requests`:
 
