@@ -183,6 +183,7 @@
         app.run(debug=True)
 
     ```
+    - Сайт є доступним та виглядає наступним чином:
 
     ![GPT_website](images/GPT_website.png "GPT_website")
 
