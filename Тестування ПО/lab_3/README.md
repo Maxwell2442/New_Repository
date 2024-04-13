@@ -194,10 +194,44 @@
     Отримали успішний результат (попередню помилку виправлено):
     ![assert7](images/assert7.png "assert7")
 
+1. Результати виконання завдання 3 - "Юніт тести з використання бібліотеки PyTest":
+    - Успішно встановили бібліотеку PyTest.
+    - Створимо та додамо простий тест у файлі `app.py` за допомогою даного нам коду:
 
+    ```python
+    def test_app_triangle():
+        """Test if we create triangle figure.
+        """
+        fig = "трикутник"
+        triangle = Figure(fig, 4)
+        assert triangle.type == fig, f"Фігура має бути {fig}"
+    ``` 
 
+    Тепер запустимо програму `app.py` за допомогою `pytest` через командну строку:
+    ![assert8](images/assert8.png "assert8")
 
+    Як бачимо, тест пройшов гладко.
 
+    - Запустимо всі тести з файлу `test.py`:
+
+    ![assert9](images/assert9.png "assert9")
+
+1. Результати виконання завдання 4 - "Візуалізація результатів та покриття коду Coverage (pytest-cov)":
+    - Успішно інсталювали бібліотеку `coverage` та `pytest`.
+    - За допомогою команди нижче згенерували дані про покриття:
+    
+    ```python
+    pipenv run python -m coverage run -m unittest discover
+    ```
+
+    - Створився файл `.coverage`, тепер можемо генерувати звіт про покритяя за допомогою `HTML`. Це я зробив за допомогою цієї команди:
+
+    ```python
+    pipenv run python -m coverage html
+    ```
+
+    - Результати були успішно звізуалізовані та завантажені у папку `htmlcov`:
+    [website](/New_Repository/Тестування ПО/lab_3/htmlcov)
 
 ### Висновок: 
 Я навчився виконувати тестування.
