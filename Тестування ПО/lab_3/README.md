@@ -224,14 +224,14 @@
     pipenv run python -m coverage run -m unittest discover
     ```
 
-    - Створився файл `.coverage`, тепер можемо генерувати звіт про покритяя за допомогою `HTML`. Це я зробив за допомогою цієї команди:
+    - Створився файл `.coverage`, тепер можемо генерувати звіт про покритя за допомогою `HTML`. Це я зробив за допомогою цієї команди:
 
     ```python
     pipenv run python -m coverage html
     ```
 
     - Результати були успішно звізуалізовані та завантажені у папку `htmlcov`:
-    [website](/New_Repository/Тестування ПО/lab_3/htmlcov)
+    ![website](/New_Repository/Тестування ПО/lab_3/htmlcov)
 
 ### Висновок: 
 Я навчився виконувати тестування.
