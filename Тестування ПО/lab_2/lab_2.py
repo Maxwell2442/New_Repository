@@ -43,7 +43,7 @@ class MyName:
 
 print("Let's Start!")
 
-names = ("Bohdan", "Marta", None)
+names = ("Bohdan", "Marta", "Maksym", None)
 all_names = {name: MyName(name) for name in names}
 
 for name, me in all_names.items():
