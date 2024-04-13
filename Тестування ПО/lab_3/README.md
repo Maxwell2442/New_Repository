@@ -96,9 +96,8 @@
     print(b.get_figure_length)
     ```
     ![assert4](images/assert4.png "assert4")
-    Можемо зауважити, що `test_figure_type` виконується (оскільки написаний без помилки), а `test_figure_length` провалився та не виводить на екран дані про довжину, бо свідомо написаний з помилкою.
 
-    - Створили юніт тести та перевірили тестовий клас. Виконали тест способом через Visual Studio Code:
+    - Створили юніт тести та перевірили тестовий клас: 
 
     ```python
     import unittest 
@@ -156,26 +155,49 @@
         unittest.main() # unittest.main(verbosity=2) щоб був більш детальний вивід
     ```
 
+    - Виконали тест способом через Visual Studio Code:
     ![assert5](images/assert5.png "assert5")
 
-    - .
+    - Виконали тест способом через консоль:
+    ![assert6](images/assert6.png "assert6")
 
-    - Модифікували програму додавши власне ім'я:
+    Можемо зауважити, що `test_figure_type` виконується (оскільки написаний без помилки), а `test_figure_length` провалився, тому що написаний з помилкою.
 
-    ![add_name](images/add_name.png "add_name")
+    - Розширили функціонал класу додавши метод `get_area`, який генерує випадкову ширину для прямокутника та висоту для трикутника, а потім перевіряє, чи `get_area` повертає метод правильну площу для фігури. Тест також друкує очікувані та фактичні значення площі для цілей налагодження. Клас `get_area` я оформив таким чином:
 
+    ```python
+    def __init__(self, type, length) -> None:
+        assert length > 0, "Довжина має бути більшою за 0!"
+        assert type in self.FIGURES, "Дозволені фігури: квадрат, прямокутник, трикутник"
+        self.type = type
+        self.length = length
+
+    def get_area(self):
+        if self.type == "квадрат":
+            return self.length ** 2
+        elif self.type == "прямокутник":
+            width = randint(1, 10)  # генерує випадкову ширину для прямокутника
+            return self.length * width
+        elif self.type == "трикутник":
+            height = randint(1, 10)  # генерує випадкову висоту для трикутника
+            return 0.5 * self.length * height
     ```
-    <*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*>
-    >*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<
-    This is object: <__main__.MyName object at 0x000001F72E730980>
-    This is object attribute: Maksym / 3
-    This is <class 'property'>: My name is Maksym / Maksym@itcollege.lviv.ua
-    This is <class 'method'> call: Maksym@itcollege.lviv.ua
-    This is static <class 'function'> with defaults: You say: Hello to everyone!
-    This is class variable <class 'int'>: from class 5 / from object 5
-    <*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*><*>
-    >*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<>*<
+
+    Функціонал я також розширив за допомогою перевірки значення `get_area`:
+
+    ```python
+    def test_figure_area(self):
+        area = self.obj.get_area()
+        print(f"Тестуємо вивід, має бути: {area} == {self.obj.get_area()}")
+        self.assertEqual(area, self.obj.get_area(), "Метод get_area повертає неправильну площу!")
     ```
+    Отримали успішний результат (попередню помилку виправлено):
+    ![assert7](images/assert7.png "assert7")
+
+
+
+
+
 
     - Відповіді на запитання:
         - ***Чому коли передаємо значення `None` створюється обєкт з іменем `Anonymous`?*** 
@@ -195,6 +217,6 @@
         Оскільки ми задали ще додатково ім'я `None`, то клас `MyName` викликається двічі, для створення інформації про `None` та про `Anonymous`.   
 
 ### Висновок: 
-Я ознайомився з основами роботи з ООП.
+Я навчився виконувати тестування.
 
 ---

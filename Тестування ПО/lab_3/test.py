@@ -15,7 +15,17 @@ class Figure:
 
     @property
     def get_figure_length(self):
-        return self.type # робимо помилку
+        return self.length
+    
+    def get_area(self):
+        if self.type == "квадрат":
+            return self.length ** 2
+        elif self.type == "прямокутник":
+            width = randint(1, 10)  # генерує випадкову ширину для прямокутника
+            return self.length * width
+        elif self.type == "трикутник":
+            height = randint(1, 10)  # генерує випадкову висоту для трикутника
+            return 0.5 * self.length * height
 
 
 class TestFigure(unittest.TestCase):
@@ -47,6 +57,11 @@ class TestFigure(unittest.TestCase):
     def test_obj(self):
         with self.assertRaises(AssertionError):
             Figure("коло", 1) # Спробуємо створити обєкт з недозволеними параметрими, в нас має бути помилка AssertionError
+
+    def test_figure_area(self):
+        area = self.obj.get_area()
+        print(f"Тестуємо вивід, має бути: {area} == {self.obj.get_area()}")
+        self.assertEqual(area, self.obj.get_area(), "Метод get_area повертає неправильну площу!")
 
 
 if __name__ == '__main__':
