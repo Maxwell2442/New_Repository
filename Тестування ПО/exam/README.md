@@ -12,4 +12,4 @@
 
 ![exam_result](images/exam_result.png "exam_result")
 
-* Всі файли знаходяться у папці `exam`
+_Всі файли знаходяться у папці `exam`_
